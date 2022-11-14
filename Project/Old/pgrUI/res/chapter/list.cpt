@@ -1,0 +1,112 @@
+﻿var chapter=[
+
+//favorites
+{
+	background : "#501c1c",
+	previewImage : {
+		path : "cs.jpg",
+		viewLocationX : "10%"
+	},
+	weapon : "f.png",
+	weaponColorHue : 329,
+	previewLayer : {
+		title : "Phigros",
+		description : "这里是Phigros的官方谱面，不过只有一些，这些是Lemo所喜欢的，可能是曲子，可能是曲绘，可能是谱面"
+	},
+	button : {
+		background : "#c96a6a",
+		title : "进入章节",
+		runString : "load.enter(\"pl\")"
+	}
+},
+
+
+//web
+{
+	background : "#0b1c3a",
+	previewImage : {
+		path : "web.jpg",
+		viewLocationX : "27%"
+	},
+	weapon : "web.png",
+	weaponColorHue : 192,
+	previewLayer : {
+		title : "Web Charts",
+		description : "集合了所有b站在线谱师所制作的Phigros谱面"
+	},
+	button : {
+		background : "#3b5089",
+		title : "进入",
+		runString : "window.open(\"https://search.bilibili.com/all?keyword=phigros%20fanmade&from_source=webtop_search\")"
+	}
+},
+
+
+//ARCAEA
+{
+	background : "#271b34",
+	previewImage : {
+		path : "arc.jpg",
+		viewLocationX : "10%"
+	},
+	weapon : "arc.png",
+	weaponColorHue : 245,
+	previewLayer : {
+		title : "Arcaea",
+		description : "<div style='width:90%;height:20px;'></div>&nbsp;&nbsp;&nbsp;&nbsp;两个少女前往探索一个支离破碎的世界。那里伴随着一个声音：一段尘封的过往即将被揭开...<div style='width:90%;height:20px;'></div>&nbsp;&nbsp;&nbsp;&nbsp;她们从这个除了废墟一无所有的世界中醒来，却丝毫不记得这里曾发生过的一切。这一刻她们才发现，自己也不过是虚无的存在。<div style='width:90%;height:20px;'></div>&nbsp;&nbsp;&nbsp;&nbsp;而接下来，她们会发现一个名叫Arcaea的物体。它由空中漂浮着玻璃质感般的碎片所积聚而成，而这每一块碎片，都包含着来自过去的鲜活回忆。<div style='width:90%;height:20px;'></div>注：解锁该章节需要达到以下条件：<div style='width:90%;height:20px;'></div>1.在游戏本体的单曲精选中，游玩单曲精选的 Nhelv 的 IN 难度并达到V及以上评级5次<div style='width:90%;height:20px;'></div>2.32MB"
+	},
+	button : {
+		background : "#46315c",
+		title : "进入章节",
+		runString : "load.enter(\"Arc\")"
+	}
+},
+
+
+
+
+
+//
+{
+	background : "#232d48",
+	previewImage : {
+		path : "cytusII.jpg",
+		viewLocationX : "30%"
+	},
+	weapon : "ct2.png",
+	weaponColorHue : 195,
+	previewLayer : {
+		title : "Cytus II",
+		description : "未来，人类重新定义了网络的发展和联机方式，能够轻易地在现实世界同步存取网络世界，改变了千年以来生活的样貌。 在巨型精神网络空间Cytus里，一位来历不明的传奇DJ ?sir，其音乐有着让人为之疯狂的魅力，每个音符和节拍都能够深深重击听者的灵魂深处。 某日，从未露面的?sir突然宣布要举办第一场大型虚拟音乐祭——?sir-FEST，邀请了当红偶像歌手以及人气DJ作为开场嘉宾。 宣传公开之际即造成前所未见的讨论热潮，所有人无不想一睹?sir的真实面貌。 而在音乐祭入场的前一小时，数以千万计的联机浏览次数打破历史纪录，整个城市瞬间沸腾了起来，等待?sir如同天神般的降临……"
+	},
+	button : {
+		background : "#3088b3",
+		title : "进入章节",
+		runString : "alert(\"nope\")"
+	}
+},
+
+
+
+
+
+//muse-dash
+{
+	background : "#5e395d",
+	previewImage : {
+		path : "muse-dash.jpg",
+		viewLocationX : "50%"
+	},
+	weapon : "musedash.png",
+	weaponColorHue : 227,
+	previewLayer : {
+		title : "Muse Dash",
+		description : "跑酷+音游的完美结合，跑酷里最好听的，音游里最好玩的，就是 Muse Dash 了！"
+	},
+	button : {
+		background : "#703e6f",
+		title : "进入章节",
+		runString : "alert(\"nope\")"
+	}
+},
+]
