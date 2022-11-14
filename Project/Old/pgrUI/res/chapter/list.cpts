@@ -1,0 +1,103 @@
+var chapter=
+[
+	{
+		description : {
+			name : "Phigros",
+			vision : [0,0,5],
+			description : "",
+			pid : "cpt-1"
+		},
+		style : {
+			locked:{},
+			unlocked:{
+				name:"Phigros",
+				description:"这里是Phigros的官方谱面，不过只有一些，这些是Lemo所喜欢的，可能是曲子，可能是曲绘，可能是谱面",
+				image:["su.png", "25%"], //图像路径，预览X坐标
+				border:{
+					offClickimg:"f.png",
+					colorDeg:164, //色相
+					fillup:"" //饱和度
+				},
+				font:{},
+				color:{
+					background:"#102434",
+					button:"#485664"
+				}
+			},
+			finished:{}
+		},
+		list:"pl",
+		button:{
+			text:"进入章节",
+			runString:"load.enter(\"pl\")"
+		}
+	},
+	{
+		description : {
+			name : "PESingle",
+			vision : [0,0,5],
+			description : "",
+			pid : "cpt-1"
+		},
+		style : {
+			locked:{},
+			unlocked:{
+				name:"Phiedit",
+				description:"“你好，是你吗？”<br>这里是Phiediter的群友们制作的谱面集合，可能只有一小部分。请感受风格各异的我们！",
+				image:["2.png", "15%"],
+				border:{
+					offClickimg:"f.png",
+					colorDeg:185, //色相
+					fillup:"" //饱和度
+				},
+				font:{},
+				color:{
+					background:"#143a50",
+					button:"#315f87"
+				}
+			},
+			finished:{}
+		},
+		list:"phiedit",
+		button:{
+			text:"进入",
+			runString:"load.enter(\"phiedit\")"
+		}
+	},
+	{
+		description : {
+			name : "Arcaea",
+			vision : [1,0,0],
+			description : "",
+			pid : "cpt-3"
+		},
+		style : {
+			locked:{},
+			unlocked:{
+				name:"Arcaea",
+				description:"<div style='width:90%;height:20px;'></div>&nbsp;&nbsp;&nbsp;&nbsp;两个少女前往探索一个支离破碎的世界。那里伴随着一个声音：一段尘封的过往即将被揭开...<div style='width:90%;height:20px;'></div>&nbsp;&nbsp;&nbsp;&nbsp;她们从这个除了废墟一无所有的世界中醒来，却丝毫不记得这里曾发生过的一切。这一刻她们才发现，自己也不过是虚无的存在。<div style='width:90%;height:20px;'></div>&nbsp;&nbsp;&nbsp;&nbsp;而接下来，她们会发现一个名叫Arcaea的物体。它由空中漂浮着玻璃质感般的碎片所积聚而成，而这每一块碎片，都包含着来自过去的鲜活回忆。<div style='width:90%;height:20px;'></div>注：解锁该章节需要达到以下条件：<div style='width:90%;height:20px;'></div>1.在游戏本体的单曲精选中，游玩单曲精选的 Nhelv 的 IN 难度并达到V及以上评级5次<div style='width:90%;height:20px;'></div>2.32MB",
+				image:["arc.jpg", "10%"], //图像路径，预览X坐标
+				border:{
+					offClickimg:"arc.png",
+					colorDeg:245, //色相
+					fillup:"" //饱和度
+				},
+				font:{
+					size:1,
+					color:"",
+					type:"PGR"
+				},
+				color:{
+					background:"#271b34",
+					button:"#46315c"
+				}
+			},
+			finished:{}
+		},
+		list:"Arc",
+		button:{
+			text:"进入章节",
+			runString:"load.enter(\"Arc\")"
+		}
+	}
+]
