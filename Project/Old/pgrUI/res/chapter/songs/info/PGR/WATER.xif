@@ -1,0 +1,39 @@
+var info ={
+	name : "WATER",
+	display : {
+		borderColor : "rgb(196 237 255)",
+		title : "WATER",
+		background : "PGR/WATER.png",
+		bgSize : "300%",
+		bgShowXY : ["20%","70%"],
+		OnClickColor:"rgb(84 94 165)"
+	},
+	displayA : {
+		title : "WATER",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["4","9","13","15"],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(255 173 173)","rgb(134 188 255)"],
+		background : "PGR/WATER.png",
+		preview : {
+			time : [1000,1000],
+			description:"在水中逐渐沉沦……",
+			path : "",
+			vpath :["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["急流に巻き込まれ","対流に巻き込まれ","乱流に巻き込まれ","Lemo"],
+		image : "knife美工刀",
+		music : "A-39/沙包P",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"",
+			""
+		]
+	}
+}

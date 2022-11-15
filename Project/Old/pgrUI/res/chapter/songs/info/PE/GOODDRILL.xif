@@ -1,0 +1,39 @@
+var info ={
+	name : "GOODDRILL",
+	display : {
+		borderColor : "rgb(247 212 13)",
+		title : "GOODRILL",
+		background : "Phiedit/GOODDRILL.jpg",
+		bgSize : "400%",
+		bgShowXY : ["0%","10%"],
+		OnClickColor:"rgb(124 107 20)"
+	},
+	displayA : {
+		title : "GOODDRILL",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["?","?","14",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(203 211 255)",""],
+		background : "Phiedit/GOODDRILL.jpg",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["","","HD-Entertainment",""],
+		image : "EBIMAYO",
+		music : "EBIMAYO",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"Nosedive.zip",
+			""
+		]
+	}
+}

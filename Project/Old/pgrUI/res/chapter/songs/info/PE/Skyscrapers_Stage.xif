@@ -1,0 +1,39 @@
+var info ={
+	name : "Skyscrapers Stage",
+	display : {
+		borderColor : "rgb(95 251 203)",
+		title : "Skyscrapers Stage",
+		background : "Phiedit/SkyStage.png",
+		bgSize : "400%",
+		bgShowXY : ["0%","80%"],
+		OnClickColor:"rgb(26 82 53)"
+	},
+	displayA : {
+		title : "Skyscrapers Stage",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["?","?","14",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(203 211 255)",""],
+		background : "Phiedit/SkyStage.png",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["","","HDE",""],
+		image : "Citrius",
+		music : "麻油",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"Skyscrapers Stage.zip",
+			""
+		]
+	}
+}

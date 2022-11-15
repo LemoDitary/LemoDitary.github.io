@@ -1,0 +1,12 @@
+var packInfo = {
+	title:"<img src='../../res/chapter/image/logos/Phigros_logo.png' style='height:75%'></div>",
+	songList : [
+		"PGR/WATER",//WATER
+		"PGR/Nick_of_Time",
+		"PGR/Speed Up",
+		"PGR/Disorder",
+		"PGR/Better_Graphic_Animation",
+		"PGR/dna",//Don't Never Around
+		"PGR/A0",//Aleph-0
+	]
+}

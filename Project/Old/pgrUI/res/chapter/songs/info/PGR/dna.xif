@@ -1,0 +1,39 @@
+var info ={
+	name : "Don't Never Around",
+	display : {
+		borderColor : "#a2d8ff",
+		title : "Don't Never Around",
+		background : "PGR/dna.png",
+		bgSize : "300%",
+		bgShowXY : ["50%","20%"],
+		OnClickColor:"rgb(0 80 137)"
+	},
+	displayA : {
+		title : "Don't Never Around",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["4","11","15",""],
+		diff : [],
+		difColor : ["rgb(219 240 255)","rgb(188 227 255)","rgb(148 210 255)",""],
+		background : "PGR/dna.png",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath :["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["XMT小咩兔","XMT小咩兔","XMT小咩兔",""],
+		image : "Arahosi",
+		music : "HAMA",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"",
+			""
+		]
+	}
+}

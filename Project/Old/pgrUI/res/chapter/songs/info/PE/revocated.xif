@@ -1,0 +1,39 @@
+var info ={
+	name : "REVΘCATE",
+	display : {
+		borderColor : "#fff",
+		title : "REVΘCATE",
+		background : "Phiedit/revocate.png",
+		bgSize : "200%",
+		bgShowXY : ["40%","30%"],
+		OnClickColor:"rgb(116 114 115)"
+	},
+	displayA : {
+		title : "REVΘCATE",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["?","?","15",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(203 211 255)",""],
+		background : "Phiedit/revocate.png",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["","","OYAMIBE(DRUGS.)",""],
+		image : "Kuro",
+		music : "Kuro",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"revocate.zip",
+			""
+		]
+	}
+}

@@ -1,0 +1,10 @@
+var packInfo = {
+	title:"Phiedit",
+	songList : [
+		"PE/LOWER",
+		"PE/GOODDRILL",
+		"PE/Skyscrapers_Stage",
+		"PE/revocated",
+		"PE/Nosedive",
+	]
+}

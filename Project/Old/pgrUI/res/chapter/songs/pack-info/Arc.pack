@@ -1,0 +1,9 @@
+var packInfo = {
+	title:"<img src='../../res/chapter/image/logos/ArcLogo.png' style='height:75%'></div>",
+	songList : [
+		"Vivid_Theory",
+		"Monochrome_Princess",
+		"Seclusion",
+		"GrievousLady"
+	]
+}

@@ -1,0 +1,39 @@
+var info ={
+	name : "Speed Up!",
+	display : {
+		borderColor : "rgb(167 247 255)",
+		title : "Speed Up!",
+		background : "PGR/Speed_Up.png",
+		bgSize : "400%",
+		bgShowXY : ["20%","50%"],
+		OnClickColor:"rgb(5 61 66)"
+	},
+	displayA : {
+		title : "Speed Up!",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["4","10","14",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(255 145 145)",""],
+		background : "PGR/Speed_Up.png",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["Ctymax VS 百九十八","Ctymax VS 百九十八","Ctymax VS 百九十八",""],
+		image : "TNiK",
+		music : "DarTokki",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"",
+			""
+		]
+	}
+}

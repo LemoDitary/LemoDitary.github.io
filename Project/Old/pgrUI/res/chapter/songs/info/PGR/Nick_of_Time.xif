@@ -1,0 +1,39 @@
+var info ={
+	name : "Nick of Time",
+	display : {
+		borderColor : "rgb(108 203 255)",
+		title : "Nick of Time",
+		background : "PGR/Not.png",
+		bgSize : "300%",
+		bgShowXY : ["50%","50%"],
+		OnClickColor:"rgb(0 65 100)"
+	},
+	displayA : {
+		title : "Nick of Time",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["4","8","14",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(255 173 173)",""],
+		background : "PGR/Not.png",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["晨 vs. XMT小咩兔","晨 vs. XMT小咩兔","NerSAN",""],
+		image : "青鸟",
+		music : "P4koo",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"",
+			""
+		]
+	}
+}

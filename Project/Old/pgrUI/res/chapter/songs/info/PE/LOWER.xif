@@ -1,0 +1,39 @@
+var info ={
+	name : "LOWER",
+	display : {
+		borderColor : "rgb(205 183 245)",
+		title : "ロウワー",
+		background : "Phiedit/lr.png",
+		bgSize : "300%",
+		bgShowXY : ["30%","70%"],
+		OnClickColor:"rgb(96 76 106)"
+	},
+	displayA : {
+		title : "ロウワー",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["?","?","14",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(203 211 255)",""],
+		background : "Phiedit/lr.png",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["","","Daimeng",""],
+		image : "Unknown",
+		music : "ぬゆり",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"Nosedive.zip",
+			""
+		]
+	}
+}

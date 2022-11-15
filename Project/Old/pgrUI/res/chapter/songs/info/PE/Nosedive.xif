@@ -1,0 +1,39 @@
+var info ={
+	name : "Nosedive",
+	display : {
+		borderColor : "rgb(247 212 13)",
+		title : "Nosedive",
+		background : "Phiedit/Nosedive.png",
+		bgSize : "550%",
+		bgShowXY : ["12%","20%"],
+		OnClickColor:"rgb(124 107 20)"
+	},
+	displayA : {
+		title : "Nosedive",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["?","?","15",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(203 211 255)",""],
+		background : "Phiedit/Nosedive.png",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["","","HDE",""],
+		image : "EBIMAYO",
+		music : "麻油",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"Nosedive.zip",
+			""
+		]
+	}
+}

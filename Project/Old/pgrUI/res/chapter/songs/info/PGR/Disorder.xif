@@ -1,0 +1,39 @@
+var info ={
+	name : "Disorder",
+	display : {
+		borderColor : "rgb(178 188 255)",
+		title : "Disorder",
+		background : "PGR/Disorder.png",
+		bgSize : "300%",
+		bgShowXY : ["50%","50%"],
+		OnClickColor:"rgb(37 43 87)"
+	},
+	displayA : {
+		title : "Disorder",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["5","9","14",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(203 211 255)",""],
+		background : "PGR/Disorder.png",
+		preview : {
+			time : [1000,1000],
+			description:"在这个混乱不堪的世界，寻找你",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["Gausbon","Gausbon","Gausbon",""],
+		image : "Nabom",
+		music : "HyuN feat. YURI",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"",
+			""
+		]
+	}
+}

@@ -1,0 +1,39 @@
+var info ={
+	name : "Better Graphic Animation",
+	display : {
+		borderColor : "rgb(255 255 255)",
+		title : "Better Graphic Animation",
+		background : "PGR/Better_Graphic_Animation.png",
+		bgSize : "300%",
+		bgShowXY : ["60%","50%"],
+		OnClickColor:"rgb(64 64 64)"
+	},
+	displayA : {
+		title : "Better Graphic Animation",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["6","11","15",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(255 145 145)",""],
+		background : "PGR/Better_Graphic_Animation.png",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["NerSAN","NerSAN","縱連打の信者☆無極",""],
+		image : "A-Zero Project",
+		music : "ルゼ",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"",
+			""
+		]
+	}
+}

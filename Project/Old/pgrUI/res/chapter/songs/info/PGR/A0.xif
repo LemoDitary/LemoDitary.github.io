@@ -1,0 +1,39 @@
+var info ={
+	name : "Aleph-0",
+	display : {
+		borderColor : "rgb(184 226 191)",
+		title : "Aleph-0",
+		background : "PGR/Aleph-0.png",
+		bgSize : "400%",
+		bgShowXY : ["80%","50%"],
+		OnClickColor:"rgb(35 90 97)"
+	},
+	displayA : {
+		title : "Aleph-0",
+		imgfilter : "",
+		Another : false,
+		difficulty : ["4","11","15",""],
+		diff : [],
+		difColor : ["rgb(222 255 218)","rgb(188 227 255)","rgb(146 186 191)",""],
+		background : "PGR/Aleph-0.png",
+		preview : {
+			time : [1000,1000],
+			description:"",
+			path : "",
+			vpath : ["","","",""],//video Path
+		}
+	},
+	chart : {
+		charter : ["阿爽 VS Arenn Saki","阿爽 VS Arenn Saki","阿爽 VS Arenn Saki",""],
+		image : "Optie",
+		music : "LeaF",
+		lineColor : "",
+		lineWidth : "",
+		PecChartFileName : [//不会写所以这部分等于摆设
+			"",
+			"",
+			"",
+			""
+		]
+	}
+}
