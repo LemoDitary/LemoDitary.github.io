@@ -1,0 +1,172 @@
+#exit-to-main-menu{
+	position:absolute;
+	left:0;
+	top:0;
+	height:10%;
+}
+
+#pv-img-panel{
+	height:65%;
+	width:100%;
+	background:rgba(0,0,0,0.4);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	border-radius: 6px
+}
+
+#pv-img-panel #img{
+	height:95%;
+	width:97%;
+	background:rgba(0,0,0,0.5);
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+	font-family:PGR;
+	color:#fff;
+	transition:all 0.1s ease-in-out;
+
+}
+
+#pv-img-panel #img #text-left{
+	display:flex;
+	justify-content:center;
+	align-items:flex-start;
+	flex-direction:column;
+	width:48%;
+	height:15%;
+	font-size:100%
+}
+
+.levelSelectingButton{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:16%;
+	height:80%;
+	background:#ddd;
+	box-sizing:border-box;
+	border:2px solid #222;
+	font-family:PGR;
+	font-size:200%;
+	font-color:#000;
+	flex-direction:column;
+	margin-left:1%;
+	transition:all 0.1s ease-in-out
+}
+
+
+#dif-a{
+	margin-left:2%
+}
+#dif-d{
+	border:0px solid #222;
+	width:0%;
+	font-size:0%;
+	transition:all 0.1s ease-in-out
+}
+
+#pv-img-panel #img #text-right{
+	display:flex;
+	justify-content:center;
+	align-items:flex-end;
+	flex-direction:column;
+	width:48%;
+	height:15%;
+	font-size:100%
+}
+
+
+#prev-main #description{
+	height:15%;
+	width:100%;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	background:rgba(0,0,0,0.4);
+	border-radius: 6px;
+	margin-top:2%;
+	font-family:PGR;
+	color:#fff;
+}
+
+#prev-main #bottom{
+	height:16%;
+	width:100%;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	background:rgba(0,0,0,0.4);
+	border-radius: 6px;
+	margin-top:2%;
+}
+
+
+#LevelSelecting {
+	height:100%;
+	width:65%;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+}
+
+#StartButton-panel {
+	height:100%;
+	width:35%;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+#StartButton-panel div{
+	height:80%;
+	width:60%;
+	background:rgba(255,255,255,0.4);
+	border-radius: 0px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-right:5%;
+	transition:all 0.1s ease-in-out
+}
+
+
+#description #a{
+	width:35%;
+	height:80%;
+	box-sizing:border-box;
+	border-right:2px solid #fff;
+	font-family:PGR;
+	color:#fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column
+}
+
+#description div{
+	width:90%;
+	height:50%;
+	font-size:80%;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	color:#fff;
+}
+
+#description #b{
+	width:65%;
+	height:80%;
+	font-size:70%;
+	font-family:PGR;
+	color:#fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+
+
+
+#startLoadingChart

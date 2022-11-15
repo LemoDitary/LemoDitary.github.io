@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="pv.css">
+		<link rel="stylesheet" href="../../css/font.css">
+		<script src="s.js"></script>
+		<script src="display.js"></script>
+		<script src="../../js/jquery-3.6.0.min.js"></script>
+	</head>
+	<body style="background:#000" onload="load.loadpack();">
+		<div id="loadScriptPanel"></div>
+		<div id="Audio">
+			<audio id="audioCT" src=""></audio>
+		</div>
+		<div id="background" style="filter:blue(10px)">
+			<div id="i"></div>
+		</div>
+		
+		<div id="main" class="yc">
+			<div id="songs">
+				<div id="panel" >
+					<div id="top"></div>
+					<div id="ChapterTitle" style="background:#1e1e1e">Sample</div>
+					<div id="menu">
+						<div id="list">
+							
+
+
+
+						</div>
+						<div id="end" style="height:10%;font-size:100%;font-family:PGR;color:#fff;">Chapter Description</div>
+					</div>
+				</div>
+			</div>
+			<div id="preview">
+				<div id="prev-main">
+					<div id="pv-img-panel">
+						<div id="img">
+							<div id="text-left">Song Title</div>
+							<div id="text-right">Level</div>
+						</div>
+					</div>
+					<div id="description">
+						<div id="a">
+							<div id="wm">音乐 ： 乐师</div>
+							<div id="wl">曲绘 ： 画师</div>
+							<div id="wc">谱面 ： 谱师</div>
+						</div>
+						<div id="b">
+							这里可以填写信息
+						</div>
+					</div>
+					<div id="bottom">
+						<div id="LevelSelecting">
+							<div id="dif-a" class="levelSelectingButton" onclick="difficulty(0)">
+								7
+							</div>
+							<div id="dif-b" class="levelSelectingButton" onclick="difficulty(1)">
+								11
+							</div>
+							<div id="dif-c" class="levelSelectingButton" onclick="difficulty(2)">
+								15
+							</div>
+							<div id="dif-d" class="levelSelectingButton" onclick="difficulty(3)">
+								16
+							</div>
+						</div>
+						<div id="StartButton-panel">
+							<div id="bb">
+								<img id="play" onclick="play()" src="../../res/chapter-menu-ui-weapon/play.png" style="height:60%;filter:brightness(0.2);transition:all 0.1s ease-in-out"></img>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<img id="exit-to-main-menu" onclick="load.backToMain()" src="../../res/chapter-menu-ui-weapon/back.png"></img>
+		<div id="black-loading-pack"></div>
+		<div id="startLoadingChart">
+			<div id="sl-i">
+				<div id="sl-i-i"></div>
+			</div>
+			<div id="s-if">
+				<div id="fa"></div>
+				<div id="fb"></div>
+				<div id="fc"></div>
+			</div>
+			<img id="loadingbar"></img>
+		</div>
+
+	</body>
+</html>
