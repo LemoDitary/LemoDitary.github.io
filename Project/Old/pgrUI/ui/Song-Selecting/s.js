@@ -53,13 +53,13 @@ var load={
 			script.setAttribute("src",URL+this.len[this.n]+".x");
 			
 			a.appendChild(script);
-			setTimeout("window.load.songpreview["+this.n+"]=window.info;",200);
+			setTimeout("window.load.songpreview["+this.n+"]=window.info;",500);
 			
 		this.n++;
 		if(this.n<this.length){
-			setTimeout("load.charts()",200);
+			setTimeout("load.charts()",500);
 		}else{
-			setTimeout("load.page()",200);
+			setTimeout("load.page()",500);
 			$("#black-loading-pack").fadeOut(500);
 		}
 	},
@@ -69,11 +69,11 @@ var load={
 		var songURL = "../../res/chapter/songs/pack-info/"+pack;
 		LoadInfo(songURL);
 
-		setTimeout("window.load.len = window.packInfo.songList",100);
-		setTimeout("window.load.pack = window.packInfo.title",100);
-		setTimeout("window.load.length = window.load.len.length",100);
-		setTimeout("document.getElementById('ChapterTitle').innerHTML=load.pack",100);
-		setTimeout("load.charts()",100);
+		setTimeout("window.load.len = window.packInfo.songList",300);
+		setTimeout("window.load.pack = window.packInfo.title",300);
+		setTimeout("window.load.length = window.load.len.length",300);
+		setTimeout("document.getElementById('ChapterTitle').innerHTML=load.pack",300);
+		setTimeout("load.charts()",300);
 	},
 	backToMain :function(){
 		$("#black-loading-pack").fadeIn(500);
