@@ -50,7 +50,7 @@ var load={
 			a.innerHTML="";
 			var script = document.createElement("script");
 			script.setAttribute("type","text/javascript");
-			script.setAttribute("src",URL+this.len[this.n]+".xif");
+			script.setAttribute("src",URL+this.len[this.n]+".x");
 			
 			a.appendChild(script);
 			setTimeout("load.songpreview["+this.n+"]=info;",200);
