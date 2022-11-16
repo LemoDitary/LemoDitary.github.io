@@ -18,17 +18,17 @@ var info ={
 		preview : {
 			time : [1000,1000],
 			path : "",
-			description:"½âËø´Ë¸èÇúĞèÒª 16MB £¬²¢ÇÒÒÔ[V]ÒÔÉÏÆÀ¼¶Í¨¹ı´ËÄÑ¶ÈÏÂµÄ[THE ULTIMACY] (À´×ÔPhigros Fanmade By °ÍÀ­°Íj)",
+			description:"è§£é”æ­¤æ­Œæ›²éœ€è¦ 16MB ï¼Œå¹¶ä¸”ä»¥[V]ä»¥ä¸Šè¯„çº§é€šè¿‡æ­¤éš¾åº¦ä¸‹çš„[THE ULTIMACY] (æ¥è‡ªPhigros Fanmade By å·´æ‹‰å·´j)",
 			vpath : ["","","Seclusion.mp4",""],//video Path
 		}
 	},
 	chart : {
-		charter : ["·ÅĞÄ°ÉÃ»ÓĞHD","·ÅĞÄ°ÉÃ»ÓĞHD","Lemo",""],
+		charter : ["æ”¾å¿ƒå§æ²¡æœ‰HD","æ”¾å¿ƒå§æ²¡æœ‰HD","Lemo",""],
 		image : "<del>YUI</del>",
 		music : "Laur",
 		lineColor : "rgb(255,202,255)",
 		lineWidth : "",
-		PecChartFileName : [//²»»áĞ´ËùÒÔÕâ²¿·ÖµÈÓÚ°ÚÉè
+		PecChartFileName : [//ä¸ä¼šå†™æ‰€ä»¥è¿™éƒ¨åˆ†ç­‰äºæ‘†è®¾
 			"",
 			"",
 			"",
