@@ -53,7 +53,7 @@ var load={
 			script.setAttribute("src",URL+this.len[this.n]+".x");
 			
 			a.appendChild(script);
-			setTimeout("load.songpreview["+this.n+"]=info;",200);
+			setTimeout("window.load.songpreview["+this.n+"]=window.info;",200);
 			
 		this.n++;
 		if(this.n<this.length){
@@ -69,9 +69,9 @@ var load={
 		var songURL = "../../res/chapter/songs/pack-info/"+pack;
 		LoadInfo(songURL);
 
-		setTimeout("load.len = packInfo.songList",100);
-		setTimeout("load.pack = packInfo.title",100);
-		setTimeout("load.length = load.len.length",100);
+		setTimeout("window.load.len = window.packInfo.songList",100);
+		setTimeout("window.load.pack = window.packInfo.title",100);
+		setTimeout("window.load.length = window.load.len.length",100);
 		setTimeout("document.getElementById('ChapterTitle').innerHTML=load.pack",100);
 		setTimeout("load.charts()",100);
 	},
