@@ -1,8 +1,4 @@
-/******************************************************
-*function  [getQueryString(name)] coded by [divor] 
-*[https://www.cnblogs.com/alibai/p/3514715.html]
-*******************************************************/
-var getQueryString = function(name) { //通过[string]name查找以获取url中的变量
+var getQueryString = function(name) { //閫氳繃[string]name鏌ユ壘浠ヨ幏鍙杣rl涓殑鍙橀噺
 	var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
 	var r = document.location.search.substr(1).match(reg);
 	if (r != null) return unescape(r[2]); return null;
