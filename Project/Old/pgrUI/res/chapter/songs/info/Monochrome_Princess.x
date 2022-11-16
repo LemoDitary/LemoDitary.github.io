@@ -28,7 +28,7 @@ var info ={
 		music : "",
 		lineColor : "",
 		lineWidth : "",
-		PecChartFileName : [//不会写所以这部分等于摆设
+		PecChartFileName : [//涓嶄細鍐欐墍浠ヨ繖閮ㄥ垎绛変簬鎽嗚
 			"",
 			"",
 			"",
